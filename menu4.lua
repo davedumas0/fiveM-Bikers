@@ -58,15 +58,9 @@ function Main()
     options.menu_subtitle = "~r~NATIVE TESTING ~g~menu 5"
     ClearMenu()
 	Menu.addButton("~r~TBA", "Notify", "this does ~r~nothing")
-    Menu.addButton("things", "enableStuff", nil)
 end
 
-function enableStuff()
 
- RequestIpl("Apa_V_mp_h_01_A")
- isiplactive = IsIplActive("Apa_V_mp_h_01_A")
- Notify("is ipl active "..tostring("Apa_V_mp_h_01_A"))
-end
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Press F5 to open/close menu
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
